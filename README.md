@@ -39,7 +39,7 @@ TCC-Code/
 │   └── index.html                         # Página inicial
 │
 └── README.md                              # Documentação do projeto
-
+```bash
 ---
 
 ## 🧩 Funcionalidades
@@ -145,4 +145,5 @@ Sinta-se livre para estudar, adaptar e evoluir o código.
 ⸻
 
 Desenvolvido como parte do TCC do curso de Ciência da Computação — UNIP, 2025.
+
 
