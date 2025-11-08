@@ -39,70 +39,67 @@ TCC-Code/
 │   └── index.html                         # Página inicial
 │
 └── README.md                              # Documentação do projeto
+```
 ---
 
-## 🧩 Funcionalidades
+🧩 Funcionalidades
 
-✅ **Cadastro e Login de Usuários**  
-- Criação de conta com e-mail e senha.  
-- Login com token JWT armazenado no navegador.  
+✅ Cadastro e Login de Usuários
+	•	Criação de conta com e-mail e senha.
+	•	Login com token JWT armazenado no navegador.
 
-✅ **Upload de Exames**  
-- Upload de arquivos locais (.pdf, .jpg, .png, etc.).  
-- Simulação de análise de resultado com mensagem de retorno.  
+✅ Upload de Exames
+	•	Upload de arquivos locais (.pdf, .jpg, .png, etc.).
+	•	Simulação de análise de resultado com mensagem de retorno.
 
-✅ **Interface Amigável e Responsiva**  
-- Design inspirado em plataformas de telemedicina.  
-- Feedbacks visuais (alertas e pop-ups) em cada etapa.  
+✅ Interface Amigável e Responsiva
+	•	Design inspirado em plataformas de telemedicina.
+	•	Feedbacks visuais (alertas e pop-ups) em cada etapa.
 
-✅ **Integração Completa via Ngrok**  
-- Comunicação entre backend (localhost:8000) e frontend (localhost:5500).  
+✅ Integração Completa via Ngrok
+	•	Comunicação entre backend (localhost:8000) e frontend (localhost:5500).
 
----
+⸻
 
-## ⚙️ Tecnologias Utilizadas
+⚙️ Tecnologias Utilizadas
 
-| Camada | Tecnologia | Descrição |
-|--------|-------------|-----------|
-| Backend | **Python 3.12 + FastAPI** | Framework moderno e de alta performance |
-| Banco de Dados | **SQLite + SQLAlchemy** | Banco local leve e integrado |
-| Frontend | **HTML5, CSS3, JavaScript** | Interface e lógica de interação |
-| Conectividade | **Ngrok** | Exposição segura do backend local |
-| Segurança | **JWT (JSON Web Token)** | Autenticação moderna e segura |
-| Versionamento | **Git + GitHub** | Controle de versão e colaboração |
+Camada	Tecnologia	Descrição
+Backend	Python 3.12 + FastAPI	Framework moderno e de alta performance
+Banco de Dados	SQLite + SQLAlchemy	Banco local leve e integrado
+Frontend	HTML5, CSS3, JavaScript	Interface e lógica de interação
+Conectividade	Ngrok	Exposição segura do backend local
+Segurança	JWT (JSON Web Token)	Autenticação moderna e segura
+Versionamento	Git + GitHub	Controle de versão e colaboração
 
----
 
-## 🧠 Metodologia
+⸻
 
-1. **Planejamento e Arquitetura:** definição do fluxo de usuário, rotas e estruturas.  
-2. **Desenvolvimento incremental:** testes e ajustes em ciclos curtos.  
-3. **Testes de usabilidade:** verificação de interface e experiência do usuário.  
-4. **Integração e validação final:** uso de Ngrok para conectar backend e frontend.  
-5. **Documentação completa:** README, prints de tela e relatório final do TCC.  
+🧠 Metodologia
+	1.	Planejamento e Arquitetura: definição do fluxo de usuário, rotas e estruturas.
+	2.	Desenvolvimento incremental: testes e ajustes em ciclos curtos.
+	3.	Testes de usabilidade: verificação de interface e experiência do usuário.
+	4.	Integração e validação final: uso de Ngrok para conectar backend e frontend.
+	5.	Documentação completa: README, prints de tela e relatório final do TCC.
 
----
+⸻
 
-## 🧪 Resultados e Prints
+🧪 Resultados e Prints
 
-### 🔐 Login
-![Login](./saude-inteligente/src/assets/images/mockups/login-template.png)
+🔐 Login
 
-### 🧾 Cadastro
-![Signup](./saude-inteligente/src/assets/images/mockups/signup-template.png)
+🧾 Cadastro
 
-### 📤 Upload de Exame
-![Upload](./saude-inteligente/src/assets/images/mockups/uploadfile-template.png)
+📤 Upload de Exame
 
-### ✅ Resultado da Análise
-![Resultado](./saude-inteligente/src/assets/images/mockups/goodresults-template.png)
+✅ Resultado da Análise
 
----
 
-## 🧰 Como Executar Localmente
+⸻
 
-### 1️⃣ Clonar o repositório
-```bash
+🧰 Como Executar Localmente
+
+1️⃣ Clonar o repositório
+
 git clone https://github.com/iamkaued/saude-inteligente.git
 cd TCC-Code
 
@@ -145,5 +142,8 @@ Sinta-se livre para estudar, adaptar e evoluir o código.
 
 Desenvolvido como parte do TCC do curso de Ciência da Computação — UNIP, 2025.
 
+---
 
-
+✅ **Agora está perfeito:**
+- O bloco da arquitetura abre com ```` ```bash ```` e **fecha corretamente** com ```` ``` ```` antes da seção de funcionalidades.  
+- Todo o restante do documento (Funcionalidades, Tecnologias, Prints etc.) está **fora do bloco de código**, renderizando normalmente no GitHub.
