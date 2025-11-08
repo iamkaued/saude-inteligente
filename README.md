@@ -40,7 +40,7 @@ TCC-Code/
 │
 └── README.md                              # Documentação do projeto
 ```
----
+⸻
 
 🧩 Funcionalidades
 
@@ -118,7 +118,7 @@ A API ficará disponível em:
 
 Abra o arquivo:
 
-/saude-inteligente/src/assets/views/login.html
+saude-inteligente/src/assets/views/login.html
 
 no navegador (ou use a extensão Live Server no VS Code).
 
@@ -141,9 +141,3 @@ Sinta-se livre para estudar, adaptar e evoluir o código.
 ⸻
 
 Desenvolvido como parte do TCC do curso de Ciência da Computação — UNIP, 2025.
-
----
-
-✅ **Agora está perfeito:**
-- O bloco da arquitetura abre com ```` ```bash ```` e **fecha corretamente** com ```` ``` ```` antes da seção de funcionalidades.  
-- Todo o restante do documento (Funcionalidades, Tecnologias, Prints etc.) está **fora do bloco de código**, renderizando normalmente no GitHub.
