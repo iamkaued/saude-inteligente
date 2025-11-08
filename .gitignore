@@ -1,0 +1,22 @@
+# Python / Backend
+**/__pycache__/
+*.py[cod]
+*.sqlite3
+.env
+venv/
+.venv/
+saude_inteligente_backend_starter/.venv/
+
+# Frontend
+node_modules/
+dist/
+build/
+
+# Sistema / Editor
+.DS_Store
+.vscode/
+.idea/
+
+# Arquivos locais
+*.log
+Exame_Medico_Joao_Silva.pdf
