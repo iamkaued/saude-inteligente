@@ -1,6 +1,6 @@
 # 🧠 Saúde Inteligente — Sistema de Análise Médica com IA
 
-Projeto desenvolvido como parte do **Trabalho de Conclusão de Curso (TCC)** em **Ciência da Computação** — **Universidade Paulista (UNIP)**.
+Projeto desenvolvido como parte do **Trabalho de Conclusão de Curso (TCC)** em Ciência da Computação — **Universidade Paulista (UNIP)**.
 
 O **Saúde Inteligente** é um sistema web completo que integra **Frontend (HTML, CSS, JS)** e **Backend (Python + FastAPI)** para simular o processo de **análise de exames médicos com inteligência artificial**.  
 O projeto foi projetado para demonstrar conceitos de **automação, usabilidade e integração entre sistemas web e APIs modernas.**
@@ -18,7 +18,6 @@ O sistema permite que usuários:
 ---
 
 ## 🏗️ Arquitetura do Projeto
-
 ```bash
 TCC-Code/
 │
@@ -40,66 +39,70 @@ TCC-Code/
 │
 └── README.md                              # Documentação do projeto
 ```
-⸻
+---
 
-🧩 Funcionalidades
+## 🧩 Funcionalidades
 
-✅ Cadastro e Login de Usuários
-	•	Criação de conta com e-mail e senha.
-	•	Login com token JWT armazenado no navegador.
+✅ **Cadastro e Login de Usuários**
+- Criação de conta com e-mail e senha.
+- Login com token JWT armazenado no navegador.
 
-✅ Upload de Exames
-	•	Upload de arquivos locais (.pdf, .jpg, .png, etc.).
-	•	Simulação de análise de resultado com mensagem de retorno.
+✅ **Upload de Exames**
+- Upload de arquivos locais (.pdf, .jpg, .png, etc.).
+- Simulação de análise de resultado com mensagem de retorno.
 
-✅ Interface Amigável e Responsiva
-	•	Design inspirado em plataformas de telemedicina.
-	•	Feedbacks visuais (alertas e pop-ups) em cada etapa.
+✅ **Interface Amigável e Responsiva**
+- Design inspirado em plataformas de telemedicina.
+- Feedbacks visuais (alertas e pop-ups) em cada etapa.
 
-✅ Integração Completa via Ngrok
-	•	Comunicação entre backend (localhost:8000) e frontend (localhost:5500).
+✅ **Integração Completa via Ngrok**
+- Comunicação entre backend (localhost:8000) e frontend (localhost:5500).
 
-⸻
+---
 
-⚙️ Tecnologias Utilizadas
+## ⚙️ Tecnologias Utilizadas
 
-Camada	Tecnologia	Descrição
-Backend	Python 3.12 + FastAPI	Framework moderno e de alta performance
-Banco de Dados	SQLite + SQLAlchemy	Banco local leve e integrado
-Frontend	HTML5, CSS3, JavaScript	Interface e lógica de interação
-Conectividade	Ngrok	Exposição segura do backend local
-Segurança	JWT (JSON Web Token)	Autenticação moderna e segura
-Versionamento	Git + GitHub	Controle de versão e colaboração
+| Camada | Tecnologia | Descrição |
+|--------|-------------|-----------|
+| Backend | **Python 3.12 + FastAPI** | Framework moderno e de alta performance |
+| Banco de Dados | **SQLite + SQLAlchemy** | Banco local leve e integrado |
+| Frontend | **HTML5, CSS3, JavaScript** | Interface e lógica de interação |
+| Conectividade | **Ngrok** | Exposição segura do backend local |
+| Segurança | **JWT (JSON Web Token)** | Autenticação moderna e segura |
+| Versionamento | **Git + GitHub** | Controle de versão e colaboração |
 
+---
 
-⸻
+## 🧠 Metodologia
 
-🧠 Metodologia
-	1.	Planejamento e Arquitetura: definição do fluxo de usuário, rotas e estruturas.
-	2.	Desenvolvimento incremental: testes e ajustes em ciclos curtos.
-	3.	Testes de usabilidade: verificação de interface e experiência do usuário.
-	4.	Integração e validação final: uso de Ngrok para conectar backend e frontend.
-	5.	Documentação completa: README, prints de tela e relatório final do TCC.
+1. **Planejamento e Arquitetura:** definição do fluxo de usuário, rotas e estruturas.  
+2. **Desenvolvimento incremental:** testes e ajustes em ciclos curtos.  
+3. **Testes de usabilidade:** verificação de interface e experiência do usuário.  
+4. **Integração e validação final:** uso de Ngrok para conectar backend e frontend.  
+5. **Documentação completa:** README, prints de tela e relatório final do TCC.
 
-⸻
+---
 
-🧪 Resultados e Prints
+## 🧪 Resultados e Prints
 
-🔐 Login
+### 🔐 Login
+![Login](./saude-inteligente/src/assets/images/mockups/login-template.png)
 
-🧾 Cadastro
+### 🧾 Cadastro
+![Signup](./saude-inteligente/src/assets/images/mockups/signup-template.png)
 
-📤 Upload de Exame
+### 📤 Upload de Exame
+![Upload](./saude-inteligente/src/assets/images/mockups/uploadfile-template.png)
 
-✅ Resultado da Análise
+### ✅ Resultado da Análise
+![Resultado](./saude-inteligente/src/assets/images/mockups/goodresults-template.png)
 
+---
 
-⸻
+## 🧰 Como Executar Localmente
 
-🧰 Como Executar Localmente
-
-1️⃣ Clonar o repositório
-
+### 1️⃣ Clonar o repositório
+```bash
 git clone https://github.com/iamkaued/saude-inteligente.git
 cd TCC-Code
 
@@ -118,7 +121,7 @@ A API ficará disponível em:
 
 Abra o arquivo:
 
-saude-inteligente/src/assets/views/login.html
+/saude-inteligente/src/assets/views/login.html
 
 no navegador (ou use a extensão Live Server no VS Code).
 
