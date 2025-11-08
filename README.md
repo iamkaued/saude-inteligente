@@ -19,6 +19,7 @@ O sistema permite que usuários:
 
 ## 🏗️ Arquitetura do Projeto
 
+```bash
 TCC-Code/
 │
 ├── saude_inteligente_backend_starter/     # Backend (FastAPI)
@@ -144,3 +145,4 @@ Sinta-se livre para estudar, adaptar e evoluir o código.
 ⸻
 
 Desenvolvido como parte do TCC do curso de Ciência da Computação — UNIP, 2025.
+
