@@ -124,7 +124,7 @@ Abra o arquivo:
 /saude-inteligente/src/assets/views/login.html
 
 no navegador (ou use a extensão Live Server no VS Code).
-
+```
 ⸻
 
 💬 Autor
@@ -144,3 +144,4 @@ Sinta-se livre para estudar, adaptar e evoluir o código.
 ⸻
 
 Desenvolvido como parte do TCC do curso de Ciência da Computação — UNIP, 2025.
+
