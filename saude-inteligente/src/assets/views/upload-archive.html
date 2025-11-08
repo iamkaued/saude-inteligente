@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saúde Inteligente - Upload</title>
+  <link rel="stylesheet" href="../css/pages/upload-archive.css">
+  <link rel="shortcut icon" href="../images/icons/logo.svg" type="image/x-icon">
+  <script src="../js/upload-archive.js" defer></script>
+</head>
+<body>
+
+  <section class="upload-hero">
+    <div class="dropzone" id="dropzone" role="group" aria-live="polite">
+
+      <div class="dz-default" id="dzDefault">
+        <h2>Arraste o arquivo<br>do seu exame aqui</h2>
+        <img src="../images/icons/exam-example.svg" alt="Ícone de arquivo de exame" class="dz-icon">
+        <input type="file" id="fileInput" class="sr-only" accept=".pdf,.png,.jpg,.jpeg,.heic,.csv,.xls,.xlsx">
+      </div>
+
+      <div class="dz-confirm hidden" id="dzConfirm">
+        <p class="dz-filename" id="dzFilename">Faça upload do seu arquivo .pdf</p>
+        <p class="dz-question">Deseja enviar este arquivo para análise?</p>
+        <div class="dz-actions">
+          <button class="btn btn-primary" id="btnSend" type="button">Enviar</button>
+          <button class="btn" id="btnChange" type="button">Escolher outro</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>

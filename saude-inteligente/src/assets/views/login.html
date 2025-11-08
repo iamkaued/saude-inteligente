@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde Inteligente - Login</title>
+    <link rel="stylesheet" href="../css/pages/login.css">
+    <link rel="shortcut icon" href="../images/icons/logo.svg" type="image/x-icon">
+    <script src="../js/login.js" defer></script>
+</head>
+<body>
+    <div class="layout">
+        <div class="layout-left"></div>
+
+        <div class="layout-right">
+            <div class="title-container">
+                <h1>Bem vindo</h1>
+                <p class="subtitle">
+                    Novo na nossa plataforma?
+                    <a href="./signup.html">Inscreva-se</a>
+                </p>
+            </div>
+
+            <div class="form-container">
+                <!-- ⚙️ Importante: id="loginForm" adicionado -->
+                <form id="loginForm" class="auth-form" novalidate>
+                    <div class="field">
+                        <label for="email">Email address</label>
+                        <input
+                            id="email"
+                            name="email"
+                            type="email"
+                            placeholder="meuemail@gmail.com"
+                            required
+                        />
+                    </div>
+
+                    <div class="field">
+                        <label for="password">Your password</label>
+                        <div class="input-wrap">
+                            <input
+                                id="password"
+                                name="password"
+                                type="password"
+                                autocomplete="current-password"
+                                required
+                            />
+                            <button
+                                class="toggle-pass"
+                                type="button"
+                                aria-label="Mostrar senha"
+                                aria-pressed="false"
+                            >
+                                <svg
+                                    class="eye"
+                                    viewBox="0 0 24 24"
+                                    width="18"
+                                    height="18"
+                                    aria-hidden="true"
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M12 5c-5 0-9 4.5-9 7s4 7 9 7 9-4.5 9-7-4-7-9-7Zm0 11a4 4 0 1 1 .001-8.001A4 4 0 0 1 12 16Z"
+                                    />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- 🔹 Botões corrigidos: agora o botão “Entrar” envia o formulário -->
+                    <div class="actions">
+                        <button
+                            class="btn btn-secondary"
+                            type="button"
+                            onclick="window.location.href='./signup.html'"
+                        >
+                            Cadastrar-se
+                        </button>
+                        <button class="btn btn-primary" type="submit">Entrar</button>
+                    </div>
+
+                    <div class="form-extra">
+                        <label class="remember">
+                            <input type="checkbox" name="remember" />
+                            Lembre-se
+                        </label>
+                        <a href="/forgot-password" class="forgot">Esqueceu sua Senha?</a>
+                    </div>
+
+                    <div class="oauth">
+                        <span class="oauth-label">Faça Login com sua conta:</span>
+                        <button class="btn-google" type="button">
+                            <img
+                                src="../images/icons/google.svg"
+                                alt="Google"
+                                aria-hidden="true"
+                            />
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

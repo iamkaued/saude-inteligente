@@ -1,0 +1,35 @@
+@import url('./reset.css');
+@import url('./root.css');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Noto+Sans:wght@300;400;700&display=swap');
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Lora",serif;
+    font-weight: var(--title-font-weight);
+}
+
+h1 {
+    font-size: var(--h1-font-size);
+}
+
+h2 {
+    font-size: var(--h2-font-size);
+}
+
+h3 {
+    font-size: var(--h3-font-size);
+}
+
+h4 {
+    font-size: var(--h4-font-size);
+}
+
+p,
+li,
+a {
+    font-family: "Noto Sans", sans-serif;
+    font-size: var(--p-text-font-size);
+    font-weight: var(--p-font-weight);
+}

@@ -1,0 +1,49 @@
+:root {
+    --primary-blue-high: #09515E;
+    --primary-blue-medium: #369BAE;
+    --primary-blue-low: #89D2DF;
+    --secondary-blue-high:#47B5CA;
+    --secondary-blue-medium:#2F2E41;
+    --secondary-blue-low: #B7D5DA;
+
+    --neutral-black-dark:#0C0C20;
+    --neutral-intense-grey: #364041;
+    --neutral-medium-grey:#59686B;
+    --neutral-weak-grey:#D1D8D9;
+    --neutral-grey: #8E989A;
+    --neutral-white:#F6FAF9;
+
+    --default-color-link:#52B69A;
+
+    --drop-shadow-intense:box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    --drop-shadow-medium:box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    --drop-shadow-low: box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+    --card-bg: rgba(255, 255, 255, 0.18);
+    --card-border: 1px solid rgba(255, 255, 255, 0.25);
+
+    --title-font-weight:700;
+    --h1-font-size: 96px;
+    --h2-font-size: 48px;
+    --h3-font-size: 32px;
+    --h4-font-size: 24px;
+
+    --p-font-weight:400;
+    --p-title-font-size: 18px;
+    --p-text-font-size: 16px;
+
+    --btn-font-size:20px;
+    --btn-font-weight:700;
+
+    --link-font-size:20px;
+    --link-font-weight:600;
+
+    --maxw: 1100px;
+    --radius-small: 8px;
+    --radius-medium:16px;
+    --radius-high: 50px;
+
+    --gap-small: 20px;
+    --gap-medium: 40px;
+    --gap-high: 60px;
+}

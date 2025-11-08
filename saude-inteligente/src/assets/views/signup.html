@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Saúde Inteligente - Cadastre-se</title>
+  <link rel="stylesheet" href="../css/pages/signup.css" />
+  <link rel="shortcut icon" href="../images/icons/logo.svg" type="image/x-icon">
+</head>
+
+<body class="page-background">
+  <header class="topbar">
+    <nav class="auth-buttons">
+      <p></p>
+      <a href="./login.html" class="btn-signup">Login</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="illustration">
+      <img src="../images/character/backgrouind-signup.png" alt="Enfermeira ilustrativa">
+    </div>
+
+    <form id="signupForm" class="card" action="#" method="post" novalidate>
+      <h1 class="title">Criar conta</h1>
+
+      <div class="grid-2">
+        <div class="field">
+          <label for="nome">Nome</label>
+          <input id="nome" name="nome" type="text" autocomplete="given-name" placeholder="">
+        </div>
+
+        <div class="field">
+          <label for="sobrenome">Sobrenome</label>
+          <input id="sobrenome" name="sobrenome" type="text" autocomplete="family-name" placeholder="">
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="email">Endereço de email</label>
+        <input id="email" name="email" type="email" autocomplete="email" placeholder="">
+      </div>
+
+      <div class="field">
+        <label for="telefone">Telefone</label>
+        <div class="phone">
+          <label class="sr-only" for="country">País</label>
+          <select id="country" name="country" class="phone-country" aria-label="Código do país">
+            <option value="BR" data-prefix="+55">🇧🇷 Brasil</option>
+            <option value="PT" data-prefix="+351">🇵🇹 Portugal</option>
+            <option value="US" data-prefix="+1">🇺🇸 United States</option>
+            <option value="ES" data-prefix="+34">🇪🇸 España</option>
+          </select>
+
+          <input id="prefix" class="phone-prefix" value="+55" aria-label="Prefixo" readonly>
+          <input id="telefone" name="telefone" class="phone-number" type="tel" inputmode="tel" placeholder="">
+        </div>
+        <p class="hint">Selecione o país e digite apenas os números.</p>
+      </div>
+
+      <div class="field">
+        <label for="password">Password</label>
+        <div class="password">
+          <input id="password" name="password" type="password" minlength="8" required autocomplete="new-password" placeholder="">
+          <button type="button" class="eye" aria-label="Mostrar senha" title="Mostrar senha">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+              <path d="M12 5c-6 0-10 7-10 7s4 7 10 7 10-7 10-7-4-7-10-7Zm0 11a4 4 0 1 1 0-8 4 4 0 0 1 0 8Z" />
+            </svg>
+          </button>
+        </div>
+        <p class="hint">Use 8 ou mais caracteres com uma mistura de letras, números e símbolos</p>
+      </div>
+
+      <div class="consents">
+        <label class="consent">
+          <input type="checkbox" name="agree_terms" required>
+          <span>
+            Ao criar uma conta, concordo com nossos
+            <a href="/termos" target="_blank" rel="noopener">Termos de uso</a>
+            e
+            <a href="/privacidade" target="_blank" rel="noopener">Política de privacidade</a>.
+          </span>
+        </label>
+
+        <label class="consent">
+          <input type="checkbox" name="agree_marketing">
+          <span>
+            Ao criar uma conta, também concordo em receber mensagens SMS e e-mails,
+            incluindo atualizações de novos recursos de produtos, eventos e promoções de marketing.
+          </span>
+        </label>
+      </div>
+
+      <button class="btn" type="submit">Criar conta</button>
+    </form>
+  </main>
+
+  <!-- ✅ script correto -->
+  <script src="../js/signup.js"></script>
+</body>
+</html>
